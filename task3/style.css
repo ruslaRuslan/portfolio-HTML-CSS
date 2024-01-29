@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #252B42;
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+
+.last-work {
+    margin-top: 1.2rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-around;
+}
+
+
+
+.BrandName {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 2rem;
+}
+
+button {
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+}
+
+.button-1 {
+    padding: 15px 25px;
+    background-color: #23A6F0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.middle>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome {
+    color: #23A6F0;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.h2-text {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+
+
+.about-we-know {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 1.5rem;
+}
+
+
+.about-we-know2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.button-2 {
+    margin-right: 7px;
+    background-color: #23A6F0;
+    border: 1px solid #23A6F0;
+    padding: 15px 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 5.7rem;
+}
+
+
+.button-2 a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+
+.button-3 a {
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+
+.button-3 {
+    padding: 15px 40px;
+    background-color: #252B42;
+    border: 1px solid #23A6F0;
+    margin-top: 2.5rem;
+    margin-bottom: 5.7rem;
+}
+
+
+
+.one h5,
+.two h5,
+.three h5 {
+    color: #252B42;
+}
+
+.one .p-1,
+.two .p-1,
+.three .p-1 {
+    color: #E74040;
+}
+
+.one .p-2,
+.two .p-2,
+.three .p-2 {
+    color: #737373;
+    font-size: 14px;
+}
+
+.three p,
+.three h5 {
+    color: #fff !important;
+}
+
+
+.one,
+.two {
+    background-color: #fff;
+}
+
+
+.three-list {
+    max-width: 350px;
+   
+    padding: 35px 40px;
+    margin-bottom: 2.5rem;
+}
+
+.по-вертикали{
+    gap: 1rem;
+}
+img {
+    border-radius: 10px;
+}
+
+.three-list h5 {
+    margin-top: 1rem;
+}
+
+.photo-1 {
+    padding: 1rem;
+    width: 85px;
+    background: #FFDCD1;
+}
+
+
+
+.photo-2 {
+    padding: 1rem;
+    width: 85px;
+    background-color: #B9EAA8;
+}
+
+.photo-3 {
+    padding: 1rem;
+    width: 85px;
+    background: #ffff;
+}
+
+.three-list p {
+    margin-top: 1rem;
+
+}
+
+.three {
+    background-color: #23A6F0;
+}
+
+@media screen and (max-width:992px) {
+
+    .login,
+    .button-1,
+    .BrandName {
+        display: none;
+    }
+
+    .card {
+        border-radius: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width:768px) {
+    .h2-text {
+        font-size: 45px;
+    }
+
+    .по-вертикали {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+    .h2-text {
+        font-size: 30px;
+        line-height: 2rem;
+    }
+
+    .about-we-know,
+    .about-we-know2 {
+        font-size: small;
+    }
+
+    .по-вертикали {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+    .card {
+        text-align: center;
+    }
+
+
+}
